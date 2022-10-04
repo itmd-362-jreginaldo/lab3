@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, Verdana, sans-serif;
+}
+
+p, h1, ol {
+    text-align: center; /* Align form elements to the center */
+    margin: 15px;
+}
+
+input {
+    box-sizing: border-box; /* Mandatory property */
+    width: 90%; /* Sizing of input areas + buttons */
+}
+
+@media screen
+and (min-width: 480px) {
+    label {
+        display: inline-block;
+    }
+}

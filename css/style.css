@@ -30,22 +30,13 @@ input {
 }
 
 @media screen
-and (min-width: 480px) {
-    label {
+and (min-width: 240px)
+and (max-width: 720px) {
+    form {
+        background-color: #888888;
         display: inline-block;
-    }
-}
-
-@media screen
-and (min-width: 720px){
-    label {
-        display: inline-block;
-    }
-}
-
-@media screen
-and (min-width: 1920px){
-    label {
-        display: inline-block;
+        text-align: center;
+        height: 50%;
+        width: 80%;
     }
 }

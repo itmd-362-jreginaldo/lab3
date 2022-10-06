@@ -6,20 +6,45 @@ html, body {
 
 body {
     font-family: Georgia, Verdana, sans-serif;
+    background-color: #333333;
 }
 
-p, h1, ol {
+p, h1, ol, label, input, #content {
     text-align: center; /* Align form elements to the center */
     margin: 15px;
 }
 
+form {
+    background-color: #888888;
+    display: inline-block;
+}
+
 input {
     box-sizing: border-box; /* Mandatory property */
-    width: 90%; /* Sizing of input areas + buttons */
+    width: 80%; /* Sizing of input areas + buttons */
+}
+
+#age-verification {
+    box-sizing: border-box;
+    width: 10%;
 }
 
 @media screen
 and (min-width: 480px) {
+    label {
+        display: inline-block;
+    }
+}
+
+@media screen
+and (min-width: 720px){
+    label {
+        display: inline-block;
+    }
+}
+
+@media screen
+and (min-width: 1920px){
     label {
         display: inline-block;
     }
